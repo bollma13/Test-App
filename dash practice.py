@@ -12,7 +12,7 @@ import dash_core_components as dcc
 
 
 app = dash.Dash()
-
+server = app.server
 
 app.layout = html.Div(
     children=[html.H1(children='Sample web app'),
