@@ -1,1 +1,1 @@
-web: gunicorn processWebhook:app --log-file -
+web: gunicorn dash_practice:app --log-file -
